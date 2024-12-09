@@ -36,4 +36,7 @@ def add_metadata_to_array(xrds, metadata_dict):
     xrds.variables['Band1'].attrs['positive']='up'
     xrds.variables['Band1'].attrs['standard_name']='height'
     xrds.variables['Band1'].attrs['coverage_content_type']='image'
+    xrds.variables['lat'].attrs['coverage_content_type']='coordinate'
+    xrds.variables['lon'].attrs['coverage_content_type']='coordinate'
+    
     return xrds
