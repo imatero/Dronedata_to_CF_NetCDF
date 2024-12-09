@@ -1,7 +1,7 @@
 ﻿Keys,Values
 id,https://doi.org/10.18710/L41RKZ
 naming_authority,NTNU DataverseNO
-title,Drone-based mapping of Larsbreen, Longyearbreen, and Tellbreen in Svalbard
+title,Drone-based mapping of Larsbreen Longyearbreen and Tellbreen in Svalbard
 summary,his database contains drone-based mapping data of three glaciers near Longyearbyen in Svalbard, Norway. There are three locations, Larsbreen, Longyearbreen, and Tellbreen. The dataset was generated using a structure-from-motion (SfM) method using drone-based imagery. The data was processed with Agisoft Metashape (version 1.8.5) and the processed data consists of digital elevation models (DEMs) in georeferenced .TIF file format and orthomosaic maps in georeferenced .JPG or .TIF. In addition, a process report in archived .PDF file format is included for each dataset. Mapping was conducted with a DJI Mavic 2 Pro Enterprise. The fieldwork was conducted in September 2022 on Tellbreen by Eero Rinne and October on Larsbreen and Longyearbreen by Richard Hann.
 keywords,Glacier Elevation, Glaciers
 keywords_vocabulary,GCMD Science Keywords
