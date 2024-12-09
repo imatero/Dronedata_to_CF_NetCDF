@@ -29,7 +29,7 @@ def add_metadata_to_array(xrds, metadata_dict):
     dtnow = dt.utcnow().strftime("%Y-%m-%dT%H:%M:%SZ")
     xrds.attrs['date_created'] = dtnow
     xrds.attrs['history'] = f'File created at {dtnow} using xarray in Python'
-    xrds.attrs['Conventions'] ='ACDD-1.3, CF-1.5'
+    xrds.attrs['Conventions'] ='ACDD-1.3, CF-1.11'
 
     # Adding missing variable attributes
     xrds.variables['Band1'].attrs['units']='meter'
