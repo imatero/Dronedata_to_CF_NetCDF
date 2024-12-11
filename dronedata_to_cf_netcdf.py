@@ -37,9 +37,9 @@ def main(tif_fp, gdal_fp, metadata_fp, output_fp):
     
 if __name__ == "__main__":
     # Specify paths to the input and output files:
-    tif_fp = 'data/01_Lagoon Pingo_2020_DEM.tif'    # Input .tif raw file
-    gdal_fp = 'data/<input_filepath.nc>' # Output .nc NetCDF file
-    metadata_fp = 'data/<metadata_filepath.csv>' # Input .csv file with metadata
-    output_fp = 'output/<output_filepath>.nc' # Output .nc NetCDF file
+    tif_fp = 'data/example_DEM.tif'    # Input .tif raw file
+    gdal_fp = 'data/example_DEM.nc>' # Output .nc NetCDF file
+    metadata_fp = 'data/example_csv_file.csv' # Input .csv file with metadata
+    output_fp = 'output/example_output_with_metadata.nc' # Output .nc NetCDF file
     
     main(gdal_fp, metadata_fp, output_fp)
